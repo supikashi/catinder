@@ -1,16 +1,28 @@
 # catinder
 
-A new Flutter project.
+## Проект по НИС Разработка на Flutter. НИУ ВШЭ ФКН ПИ 3 курс
 
-## Getting Started
+### Приложение для поиска породы кота
 
-This project is a starting point for a Flutter application.
+Реализованные функциональные требования:
+1) На главном экране отображается случайное изображение котика и название его породы
+2) Изображение котика можно свайпнуть или смахнуть влево или вправо, есть две кнопки: лайк/дизлайк
+3) Смахивание, свайп или нажатие на кнопку должно сменять котика на нового
+4) Если котика лайкнули (лайк или свайп вправо), то на экране должен увеличиваться счетчик
+5) Если нажать на само изображение котика, то должен открываться новый экран с детальным описанием
+6) На экране детального описания отображается то же изображение котика, плюс отображается вся информация про породу
+7) Реализован таб бар с переключением на экран “Список пород”, на котором отображается список доступных пород и краткая информация про них
+8) По тапу на породу открывается детальная информация про породу: описание и 3-4 характеристики
 
-A few resources to get you started if this is your first Flutter project:
+Плюсом к этому реализована фоновая предзагрузка котов, включая предзагрузку их картинок. Реализованно в виде очереди, в конец которой добавляется информация о новых котах. Логика очереди находится в файле lib/services/cat_queue_service.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### apk находится в релизах https://github.com/supikashi/catinder/releases/tag/v1
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Скрины:
+
+<img src="https://github.com/user-attachments/assets/09196c04-e79c-4d0a-87cb-a1db960a9dbf" alt="Alt Text" style="width:20%; height:auto;">
+<img src="https://github.com/user-attachments/assets/b3002db2-6ca7-41c7-8df7-6f0942fdf65d" alt="Alt Text" style="width:20%; height:auto;">
+<img src="https://github.com/user-attachments/assets/159e1fe0-89b1-48a7-a39f-a45f12810cb5" alt="Alt Text" style="width:20%; height:auto;">
+<img src="https://github.com/user-attachments/assets/e1a25f55-e0da-4765-8516-d27daa83110d" alt="Alt Text" style="width:20%; height:auto;">
+
+
