@@ -25,4 +25,5 @@
 <img src="https://github.com/user-attachments/assets/159e1fe0-89b1-48a7-a39f-a45f12810cb5" alt="Alt Text" style="width:20%; height:auto;">
 <img src="https://github.com/user-attachments/assets/e1a25f55-e0da-4765-8516-d27daa83110d" alt="Alt Text" style="width:20%; height:auto;">
 
-
+чтобы собрать приложение самому нужен апи ключ https://thecatapi.com
+положить его нужно в .env файл в .env.example лежит пример
