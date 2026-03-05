@@ -19,6 +19,7 @@ class MainScreen extends StatelessWidget {
             IconButton(
               icon: const Icon(Icons.logout),
               onPressed: () {
+                context.read<CatProvider>().resetLikes();
                 context.read<AuthProvider>().logout();
               },
             ),

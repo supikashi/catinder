@@ -26,7 +26,7 @@ class CatProvider extends ChangeNotifier {
   CatState get state => _state;
 
   final List<Cat> _catQueue = [];
-  bool _isLoadingBatch = false;
+  Future<void>? _loadingFuture;
   int _likeCount = 0;
 
   int get likeCount => _likeCount;
@@ -37,16 +37,20 @@ class CatProvider extends ChangeNotifier {
     _state = CatLoading();
     notifyListeners();
     await _loadMoreCats();
-    _updateState();
   }
 
-  Future<void> _loadMoreCats() async {
-    if (_isLoadingBatch) return;
-    _isLoadingBatch = true;
+  Future<void> _loadMoreCats() {
+    if (_loadingFuture != null) return _loadingFuture!;
 
+    _loadingFuture = _fetchCats();
+    return _loadingFuture!;
+  }
+
+  Future<void> _fetchCats() async {
     try {
       final cats = await getCatsUseCase(limit: 5);
       _catQueue.addAll(cats);
+      _updateState();
     } catch (e) {
       if (_state is! CatLoaded) {
         _state = CatError(
@@ -54,7 +58,7 @@ class CatProvider extends ChangeNotifier {
         notifyListeners();
       }
     } finally {
-      _isLoadingBatch = false;
+      _loadingFuture = null;
     }
   }
 
@@ -64,8 +68,8 @@ class CatProvider extends ChangeNotifier {
       _state =
           CatLoaded(currentCat: current, queue: List.from(_catQueue.skip(1)));
     } else {
-      if (!_isLoadingBatch) {
-        _loadMoreCats().then((_) => _updateState());
+      if (_loadingFuture == null) {
+        _loadMoreCats();
       }
       if (_state is! CatError) {
         _state = CatLoading();
@@ -81,6 +85,11 @@ class CatProvider extends ChangeNotifier {
 
   void dislikeCat() {
     _removeCurrentCat();
+  }
+
+  void resetLikes() {
+    _likeCount = 0;
+    notifyListeners();
   }
 
   void _removeCurrentCat() {
