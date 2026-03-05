@@ -25,7 +25,7 @@
 
 Плюсом к этому реализована фоновая предзагрузка котов, включая предзагрузку их картинок. Реализованно в виде очереди, в конец которой добавляется информация о новых котах. Логика очереди находится в файле lib/services/cat_queue_service.dart
 
-### apk находится в релизах https://github.com/supikashi/catinder/releases/tag/v2
+### apk находится в релизах https://github.com/supikashi/catinder/releases/tag/v2.1
 
 Скрины:
 
