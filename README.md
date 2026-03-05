@@ -25,14 +25,20 @@
 
 Плюсом к этому реализована фоновая предзагрузка котов, включая предзагрузку их картинок. Реализованно в виде очереди, в конец которой добавляется информация о новых котах. Логика очереди находится в файле lib/services/cat_queue_service.dart
 
-### apk находится в релизах https://github.com/supikashi/catinder/releases/tag/v1
+### apk находится в релизах https://github.com/supikashi/catinder/releases/tag/v2
 
 Скрины:
 
-<img src="https://github.com/user-attachments/assets/09196c04-e79c-4d0a-87cb-a1db960a9dbf" alt="Alt Text" style="width:20%; height:auto;">
-<img src="https://github.com/user-attachments/assets/b3002db2-6ca7-41c7-8df7-6f0942fdf65d" alt="Alt Text" style="width:20%; height:auto;">
-<img src="https://github.com/user-attachments/assets/159e1fe0-89b1-48a7-a39f-a45f12810cb5" alt="Alt Text" style="width:20%; height:auto;">
-<img src="https://github.com/user-attachments/assets/e1a25f55-e0da-4765-8516-d27daa83110d" alt="Alt Text" style="width:20%; height:auto;">
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 12" src="https://github.com/user-attachments/assets/6a00386e-f986-430c-abaf-08b0a9e5436e" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 17" src="https://github.com/user-attachments/assets/4c95bba7-a1cd-474f-bca6-634a7a9dfc7e" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 36" src="https://github.com/user-attachments/assets/b3f3e3d8-52e0-42be-beef-2576a3ec1d66" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 53" src="https://github.com/user-attachments/assets/176e8631-ad44-45d5-83a9-d621f29c37bf" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 47" src="https://github.com/user-attachments/assets/bba3403a-975d-41e3-9a25-a5f6d6c0a29d" style="width:20%; height:auto;"/>
+
+https://github.com/user-attachments/assets/4caa3b0c-d991-49a4-9ec5-4b45b4dd0ddb
+
+
+
 
 чтобы собрать приложение самому нужен апи ключ https://thecatapi.com
 положить его нужно в .env файл в .env.example лежит пример
