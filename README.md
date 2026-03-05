@@ -29,11 +29,11 @@
 
 Скрины:
 
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 12" src="https://github.com/user-attachments/assets/6a00386e-f986-430c-abaf-08b0a9e5436e" style="width:15%; height:auto;"/>
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 17" src="https://github.com/user-attachments/assets/4c95bba7-a1cd-474f-bca6-634a7a9dfc7e" style="width:15%; height:auto;"/>
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 36" src="https://github.com/user-attachments/assets/b3f3e3d8-52e0-42be-beef-2576a3ec1d66" style="width:15%; height:auto;"/>
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 53" src="https://github.com/user-attachments/assets/176e8631-ad44-45d5-83a9-d621f29c37bf" style="width:15%; height:auto;"/>
-<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 47" src="https://github.com/user-attachments/assets/bba3403a-975d-41e3-9a25-a5f6d6c0a29d" style="width:15%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 12" src="https://github.com/user-attachments/assets/6a00386e-f986-430c-abaf-08b0a9e5436e" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 17" src="https://github.com/user-attachments/assets/4c95bba7-a1cd-474f-bca6-634a7a9dfc7e" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 36" src="https://github.com/user-attachments/assets/b3f3e3d8-52e0-42be-beef-2576a3ec1d66" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 53" src="https://github.com/user-attachments/assets/176e8631-ad44-45d5-83a9-d621f29c37bf" style="width:20%; height:auto;"/>
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 Pro - 2026-03-05 at 22 40 47" src="https://github.com/user-attachments/assets/bba3403a-975d-41e3-9a25-a5f6d6c0a29d" style="width:20%; height:auto;"/>
 
 https://github.com/user-attachments/assets/4caa3b0c-d991-49a4-9ec5-4b45b4dd0ddb
 
